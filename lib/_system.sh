@@ -9,7 +9,7 @@
 #######################################
 system_create_user() {
   print_banner
-  printf "${WHITE} 💻 Agora, vamos criar o usuário para a instancia...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Ahora, vamos a crear el usuario para la instancia...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -29,7 +29,7 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} 💻 Fazendo download do código Z1crm...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Descargar el código Z1crm...${GRAY_LIGHT}"
   printf "\n\n"
 
 
@@ -49,7 +49,7 @@ EOF
 #######################################
 system_update() {
   print_banner
-  printf "${WHITE} 💻 Vamos atualizar o sistema Z1crm...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Actualicemos el sistema Z1crm...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -102,7 +102,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} 💻 Remoção da Instancia/Empresa ${empresa_delete} realizado com sucesso ...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Eliminación de la instancia/empresa ${empresa_delete} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
 
@@ -130,7 +130,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} 💻 Bloqueio da Instancia/Empresa ${empresa_bloquear} realizado com sucesso ...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Bloqueo de la instancia/empresa ${empresa_bloquear} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -157,7 +157,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} 💻 Desbloqueio da Instancia/Empresa ${empresa_desbloquear} realizado com sucesso ...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Desbloqueo de la instancia/empresa ${empresa_desbloquear} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -170,7 +170,7 @@ EOF
 #######################################
 configurar_dominio() {
   print_banner
-  printf "${WHITE} 💻 Vamos Alterar os Dominios do Z1crm...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Cambiemos los dominios de Z1crm...${GRAY_LIGHT}"
   printf "\n\n"
 
 sleep 2
@@ -262,7 +262,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} 💻 Alteração de dominio da Instancia/Empresa ${empresa_dominio} realizado com sucesso ...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Cambio de instancia/dominio de la empresa ${empresa_dominio} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -290,7 +290,7 @@ system_node_install() {
   wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
   sudo apt-get update -y && sudo apt-get -y install postgresql
   sleep 2
-  sudo timedatectl set-timezone America/Sao_Paulo
+  sudo timedatectl set-timezone America/Bogota
   
 EOF
 
@@ -521,7 +521,7 @@ EOF
 #######################################
 system_certbot_setup() {
   print_banner
-  printf "${WHITE} 💻 Configurando certbot, Já estamos perto do fim...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Configurando certbot, nos acercamos al final...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2

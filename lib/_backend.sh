@@ -118,7 +118,7 @@ EOF
 #######################################
 backend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando o código do backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compilación del código backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2

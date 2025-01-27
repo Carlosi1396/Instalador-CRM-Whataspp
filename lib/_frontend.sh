@@ -29,7 +29,7 @@ EOF
 #######################################
 frontend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando o código do frontend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compilación del código frontend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
